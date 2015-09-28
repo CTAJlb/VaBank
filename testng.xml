@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="ReDesign.Va-bank_EAPI.com" parallel="false">
+  <test  name="Fast_Suite">
+    <classes>
+      <!--Register Globotest14 for start automation-->
+      <!--<class name="Registration.Positive.C49069"/>-->
+      <!--Register Globotest14 for start automation-->
+
+
+      <class name="Registration.C49066"/>
+      <class name="Registration.C49067"/>
+
+      <class name="Registration.Positive.C49068"/>
+      <!--&lt;!&ndash;<class name="Registration.Positive.C49069"/>&ndash;&gt; Launch before start first build-->
+
+      <class name="Registration.Positive.C49070"/>
+      <class name="Registration.Positive.C49071"/>
+
+      <!--<class name="Registration.Negative.C49072"/> All fields is required-->
+      <class name="Registration.Negative.C49073"/>
+      <class name="Registration.Negative.C49075"/>
+      <class name="Registration.Negative.C49077"/>
+      <class name="Registration.Negative.C49078"/>
+      <class name="Registration.Negative.C49079"/>
+      <class name="Registration.Negative.C49080"/>
+      <!--<class name="Registration.Negative.C49081"/> Can't input short login-->
+      <!--<class name="Registration.Negative.C49082"/>not need to fix By Buhanevich Vlad-->
+      <!--<class name="Registration.Negative.C49083"/> Can't input short password-->
+
+
+      <class name="Authorization.Positive.C49084"/>
+      <class name="Authorization.Negative.C49085"/>
+      <class name="Authorization.Negative.C49086"/>
+      <class name="Authorization.Negative.C49087"/>
+      <class name="Authorization.Negative.C49088"/>
+
+      <class name="Cash.UpAccount.C51296"/>
+      <class name="Cash.UpAccount.C51297"/>
+      <class name="Cash.UpAccount.C51298"/>
+      <class name="Cash.UpAccount.C51299"/>
+      <!--&lt;!&ndash;<class name="Cash.UpAccount.C51300"/> disable pay system-->
+      <class name="Cash.UpAccount.C51301"/>
+      <class name="Cash.UpAccount.C51302"/>
+      <class name="Cash.UpAccount.C51304"/>
+      <class name="Cash.UpAccount.C51305"/>
+      <class name="Cash.UpAccount.C51306"/>
+      <!--&lt;!&ndash;<class name="Cash.UpAccount.C51307"/> disable pay system-->
+
+      <class name="Cash.GetTheWin.C51311"/>
+      <class name="Cash.GetTheWin.C51312"/>
+      <class name="Cash.GetTheWin.C51313"/>
+      <class name="Cash.GetTheWin.C51314"/>
+      <class name="Cash.GetTheWin.C51315"/>
+
+      <class name="Cash.PaymentHistory.C51310"/>
+
+      <class name="GloboLogin.C49089"/>
+      <class name="GloboLogin.C49090"/>
+      <class name="GloboLogin.C49091"/>
+      <class name="GloboLogin.C49092"/>
+      <class name="GloboLogin.C49093"/>
+      <class name="GloboLogin.C49094"/>
+      <class name="GloboLogin.C49095"/>
+
+      <class name="RestorePassword.Positive.C49097"/>
+      <class name="RestorePassword.Negative.C49098"/>
+      <class name="RestorePassword.Negative.C49099"/>
+      <class name="RestorePassword.Negative.C49100"/>
+
+      <class name="NavigateMenu.C49101"/>
+      <class name="NavigateMenu.C49102"/>
+      <class name="NavigateMenu.C49103"/>
+
+      <class name="UserProfile.ChangePassword.Positive.C49189"/>
+      <class name="UserProfile.ChangePassword.Negative.C49512"/>
+      <class name="UserProfile.ChangePassword.Negative.C49513"/>
+      <class name="UserProfile.ChangePassword.Negative.C49514"/>
+      <class name="UserProfile.ChangePassword.Negative.C51540"/>
+
+
+      <class name="UserProfile.ChangeUserName.Positive.C49528"/>
+      <class name="UserProfile.ChangeUserName.Negative.C49529"/>
+      <class name="UserProfile.ChangeUserName.Negative.C49550"/>
+      <class name="UserProfile.ChangeUserName.Negative.C51541"/>
+
+      <class name="UserProfile.ChangeUserName.Negative.C49550"/>
+      <class name="UserProfile.ChangeUserName.Negative.C51541"/>
+
+      <class name="Games.C51531"/>
+<!-- <class name="Games.runDemo.C50634"/>-->
+<!-- <class name="Games.runReal.C50635"/>-->
+
+
+    </classes>
+  </test>
+</suite>
